@@ -37,14 +37,14 @@ print ('F1 score: ', f1)
 
 
  # Calculate confusion matrix
- cm = confusion_matrix(y_test, y_pred)
+cm = confusion_matrix(y_test, y_pred)
 
  # Print the full confusion matrix
- print('\nConfusion Matrix:')
- print(cm)
+print('\nConfusion Matrix:')
+print(cm)
 
  # Print individual elements of confusion matrix
- print('\nIndividual Elements:')
- print(f'True Positives (Class 0): {cm[0,0]}')
- print(f'True Positives (Class 1): {cm[1,1]}')
- print(f'True Positives (Class 2): {cm[2,2]}')
+print('\nIndividual Elements:')
+print(f'True Positives (Class 0): {cm[0,0]}')
+print(f'True Positives (Class 1): {cm[1,1]}')
+print(f'True Positives (Class 2): {cm[2,2]}')
